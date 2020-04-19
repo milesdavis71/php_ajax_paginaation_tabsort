@@ -7,18 +7,18 @@
 <script
     src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-<title>Ajax Pagination with Tabular Records using PHP and jQuery</title>
-<link rel="stylesheet" href="style.css" type="text/css" />
+<title>Hanglemez kölcsönző lemezei</title>
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.ico" />
+    <link rel="stylesheet" href="assets/css/app.css">
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 <body>
-    <div id="container">
-        <div id="inner-container">
+
 
             <div id="results"></div>
-            <div id="loader"></div>
 
-        </div>
-    </div>
+</div>
 
 
     <script type="text/javascript">
@@ -28,10 +28,6 @@
             url: "getPageData.php",
             data: "pageNumber=" + pageNumber,
             cache: false,
-    		beforeSend: function() {
-                $('#loader').html('<img src="loader.png" alt="reload" width="20" height="20" style="margin-top:10px;">');
-    			
-            },
             success: function(html) {
                 $("#results").html(html);
                 $('#loader').html(''); 
@@ -43,5 +39,7 @@
         showRecords(10, 1);
     });
 </script>
+    <script src="assets/js/app.js"></script>
+
 </body>
 </html>

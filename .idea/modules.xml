@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../ajax_column_sort/.idea/ajax_column_sort.iml" filepath="$PROJECT_DIR$/../ajax_column_sort/.idea/ajax_column_sort.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/php_ajax_pag.iml" filepath="$PROJECT_DIR$/.idea/php_ajax_pag.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ajax_pagination_with_php/.idea/ajax_pagination_with_php.iml" filepath="$PROJECT_DIR$/../ajax_pagination_with_php/.idea/ajax_pagination_with_php.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../albumok_tablazat/.idea/albumok_tablazat.iml" filepath="$PROJECT_DIR$/../albumok_tablazat/.idea/albumok_tablazat.iml" />
     </modules>
   </component>
 </project>

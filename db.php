@@ -2,6 +2,6 @@
 $host = "localhost";
 $username = "root";
 $password = "";
-$database_name = "tbl_staff";
-$conn = mysqli_connect($host, $username, $password, $database_name) or die("Connection failed: " . mysqli_error());
+$database_name = "milesdavis71";
+$conn = mysqli_connect($host, $username, $password, $database_name) or die("Sikertelen a szerverhez való kapcsolódás: " . mysqli_error());
 ?>
